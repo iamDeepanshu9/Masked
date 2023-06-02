@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+.header {
+    background: linear-gradient(to right, #FFD700, #FFA500); /* Customize the gradient colors */
+    color: #FFFFFF; /* Customize the text color */
+    text-align: center;
+    padding: 20px;
+    height: 40px;
+  }
+
+  .brand-name {
+    font-size: 24px; /* Customize the font size */
+    font-weight: bold;
+  }
+
+  .subheader {
+    background-color: #f5f5f5; /* Customize the background color */
+    padding: 20px;
+    text-align: center;
+    height: 40px;
+  }
+
+  .caption {
+    font-size: 24px; /* Customize the font size */
+    font-weight: bold;
+    color: #333333; /* Customize the text color */
+  }
+
+  .footer {
+    background: linear-gradient(to right, #FFD700, #FFA500); /* Use the same gradient as the header */
+    color: #FFFFFF; /* Customize the text color */
+    text-align: center;
+    padding: 20px;
+    height: 40px;
+  }
+
+  .footer a {
+    color: #FFFFFF; /* Customize the link color */
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* max-width: 900px; Adjust the max-width to your desired value */
+    max-height: calc(100vh - 240px);
+    margin: 0 auto; /* Center the container horizontally */
+    overflow-y: auto;
+  }
+
+  .card {
+    flex-basis: calc(33.33% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  .card h3 {
+    margin: 0;
+    font-size: 18px; /* Customize the font size */
+  }
+
+  .card p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+
+  
